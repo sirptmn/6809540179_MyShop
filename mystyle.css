@@ -41,7 +41,7 @@ header {
 header nav {
     display: flex;
     gap: 1.5rem;
-    flex: 1;
+    flex-wrap: wrap;
     padding-top: 5%;
 }
 
@@ -105,8 +105,8 @@ section {
 }
 
 .collection img {
-    width: 400px;
-    height: auto;
+    width: 100%;
+    max-width: 300px;
     object-fit: cover;
     border-radius: 8px;
 }
